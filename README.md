@@ -33,8 +33,43 @@ source venv/bin/activate   # En Windows: venv\Scripts\activate
 jupyter notebook notebooks/01_EDA_Churn_TelecomX.ipynb
 -O en Google Colab subiendo el archivo .ipynb.
 
-
 🧠 Conclusión:
 Este análisis sienta las bases para que Telecom X pueda anticiparse a la evasión de clientes. Al comprender los factores que influyen en el churn, la empresa podrá implementar estrategias de fidelización más efectivas, reduciendo pérdidas y mejorando la experiencia del cliente.
 
-Victoria.Fuenzalida.
+🗂️ Estructura del Proyecto
+
+Challenge-Telecom-X/
+
+│
+
+├── README.md                         # Descripción del proyecto
+
+├── requirements.txt                  # Dependencias del proyecto
+
+├── .gitignore                        # Archivos y carpetas que Git debe ignorar
+
+│
+
+├── TelecomX_Churn_Analisis_Estilos.ipynb   # Notebook principal con visualizaciones
+
+│
+
+├── data/                             # Datos de entrada
+
+│   └── telecom_customers.json
+
+│
+
+├── outputs/                          # Archivos generados
+
+│   ├── churn_dataset_limpio.csv
+
+│   └── figures/
+
+│       ├── churn_distribucion.png
+
+│       ├── churn_vs_contrato.png
+
+│       └── tenure_vs_churn.png
+
+# - Victoria.Fuenzalida - 
